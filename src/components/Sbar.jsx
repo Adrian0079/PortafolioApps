@@ -25,7 +25,7 @@ const Sbar = () => {
         <List>
             <ListItem disablePadding>
               
-                <ListItemButton component="a" href='https://www.google.com/' target="_blank">
+                <ListItemButton component="a" href='https://github.com/Adrian0079' target="_blank">
                   <ListItemIcon>
                     <GitHub />
                   </ListItemIcon>
@@ -33,7 +33,7 @@ const Sbar = () => {
                 </ListItemButton>  
             </ListItem>
             <ListItem disablePadding>
-                <ListItemButton component="a" href='https://www.google.com/' target="_blank">
+                <ListItemButton component="a" href='https://www.linkedin.com/in/jorge-adri%C3%A1n-guillen-barraza-a79566230/' target="_blank">
                   <ListItemIcon>
                     <LinkedIn />
                   </ListItemIcon>

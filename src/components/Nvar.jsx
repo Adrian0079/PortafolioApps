@@ -3,6 +3,7 @@ import { AppBar, Avatar, Box, Button, IconButton, Toolbar, Typography } from '@m
 import React from 'react'
 import styled from '@emotion/styled';
 
+
 const Nvar = () => {
 
     const RedButton = styled(Button)({
@@ -52,11 +53,11 @@ const Nvar = () => {
                 </a>
 
                 <IconButton>    
-                    <a href='https://www.google.com/'>
-                        <RedButton variant="outlined" startIcon={<FileDownload /> } >
-                            Download CV
-                        </RedButton>
-                    </a>
+                    
+                    <RedButton variant="outlined" startIcon={<FileDownload /> } href='https://drive.google.com/file/d/1G-DSw5NxgumpJ9rgBGIBBYbwQUUxN-JH/view' target="_blank">
+                        Download CV
+                    </RedButton>
+                   
                 </IconButton>
                
 
