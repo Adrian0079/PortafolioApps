@@ -3,11 +3,16 @@ import { DarkMode, GitHub, LinkedIn } from '@mui/icons-material'
 import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch, Typography } from '@mui/material'
 import React from 'react'
 import sesesp from '../images/Sesesp2.png'
+import yo from '../images/yo.jpg'
+import styled from 'styled-components'
 
 const Sbar = () => {
 
   
-
+  const StyledImg = styled('img')({
+    borderRadius: '8px', // Establece el radio de las esquinas
+    boxShadow: '40px 30px 80px rgba(0, 0, 0, 0.2)', // Añade sombra
+  }); 
   
 
   return (
@@ -42,13 +47,11 @@ const Sbar = () => {
             </ListItem>
 
             <ListItem disablePadding>
-                <ListItemButton>
+                
                   <ListItemIcon>
-                    <DarkMode />
+                    <StyledImg src={yo} width={300} />
                   </ListItemIcon>
-                  <ListItemText primary="Dark" />
-                </ListItemButton>
-                <Switch />
+                
             </ListItem>
           </List>
 

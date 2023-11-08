@@ -9,6 +9,7 @@ import labview from '../images/labview.png'
 import javascript_image from '../images/javascript.svg'
 import office from '../images/office.svg'
 import sql_image from '../images/Sql.svg'
+import TS from '../images/Typescript.png'
 
 
 
@@ -49,7 +50,9 @@ const Rbar = () => {
         <Grid item xs={6}>
           <img src={FluidSIM} width="100%"/>
         </Grid>
-
+        <Grid item xs={6}>
+          <img src={TS} width="100%"/>
+        </Grid>
       </Grid>
 
 

@@ -44,11 +44,11 @@ const Nvar = () => {
 
             <Box display="flex" alignItems="center" gap={2}>
                 
-                <a href='https://www.google.com/'>
+                <a href='https://www.linkedin.com/in/jorge-adri%C3%A1n-guillen-barraza-a79566230/' target="_blank">
                 <LinkedIn/>
                 </a>
 
-                <a href='https://www.google.com/'>
+                <a href='https://github.com/Adrian0079' target="_blank">
                 <GitHub />
                 </a>
 
