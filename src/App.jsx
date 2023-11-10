@@ -51,6 +51,7 @@ function App() {
       spacing={2}  //Espacio entre componentes.
       justifyContent="space-evenly" //Ajustamos horizontalmente
       //(alignItems="center" // Centra verticalmente)
+      
       >
       
       <Sbar/>

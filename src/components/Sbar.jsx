@@ -22,6 +22,7 @@ const Sbar = () => {
     p={2} //Padding (distancia entre el contenido y el borde del componente)
     sx={{
       boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.5)', // Sombra
+      display: {xs: "none", sm:"none", md: "block"}
     }}
     >
       <Box 
@@ -53,6 +54,8 @@ const Sbar = () => {
                   </ListItemIcon>
                 
             </ListItem>
+
+            
           </List>
 
           <Typography fontWeight="bold">Experience:</Typography>
