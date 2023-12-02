@@ -8,12 +8,9 @@ import socialWeb from '../images/socialWeb.png'
 import weather from '../images/Weather.png'
 import instacopy from '../images/instacopy.png'
 import vinos from '../images/vinos.png'
+import spotifyApp from '../images/spotifyApp.png'
 
 const Feed = () => {
-
-  
-
- 
 
   return (
     <Box
@@ -216,7 +213,32 @@ const Feed = () => {
       </Card>
       {/* Card ---------------------------------------> */}
 
-
+      {/* Card ---------------------------------------> */}
+      <Card sx={{ width:"100%", maxHeight: 800,
+        boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.9)',
+        borderRadius: 3,
+        marginTop:4   
+        }} 
+        >
+        <CardMedia
+          component="img"
+          height="100%"
+          image={spotifyApp}
+          />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div" fontWeight="bold">
+            SpotifyApp Copy
+          </Typography>
+          <Typography variant="h5" color="#5F50FF" fontWeight="bold">
+            API(Spotify) + Firebase + Javascript + React + Material UI
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
+          <Button color="success" variant="contained" onClick={()=>{window.open('https://master--deluxe-manatee-ab087e.netlify.app/'); }}>Watch</Button>
+        </CardActions>
+      </Card>
+      {/* Card ---------------------------------------> */}
     </Box>
   )
 }
