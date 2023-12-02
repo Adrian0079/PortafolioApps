@@ -6,6 +6,8 @@ import Tict from '../images/tictactoe.png'
 import pokimg from '../images/pokedex.png'
 import socialWeb from '../images/socialWeb.png'
 import weather from '../images/Weather.png'
+import instacopy from '../images/instacopy.png'
+import vinos from '../images/vinos.png'
 
 const Feed = () => {
 
@@ -15,22 +17,23 @@ const Feed = () => {
 
   return (
     <Box
+    border={0}
+    alignItems="center"
     bgcolor={'#E7E7EA'} //Color de fondo
     flex={4} //Usamos flexbox para dividir la pantalla en las 3 columnas
-    p={2} //Padding (distancia entre el contenido y el borde del componente)
     >
 
       {/* Card ---------------------------------------> */}
-     <Card sx={{ maxWidth: 750, maxHeight: 800,
+     <Card sx={{ width:"100%", maxHeight: 800,
         boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.9)',
-        borderRadius: 3,
-        margin:2    
+        borderRadius: 3,    
+        marginTop: 4
     }} 
       
     >
         <CardMedia
           component="img"
-          height="400"
+          height="100%"
           image={BeastStore_image}
           />
         <CardContent>
@@ -49,10 +52,10 @@ const Feed = () => {
       {/* Card ---------------------------------------> */}
 
 {/* Card ---------------------------------------> */}
-<Card sx={{ maxWidth: 750, maxHeight: 800,
+<Card sx={{ width:"100%", maxHeight: 800,
         boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.9)',
         borderRadius: 3,
-        margin:2    
+        marginTop:4    
     }} 
       
     >
@@ -77,16 +80,16 @@ const Feed = () => {
       {/* Card ---------------------------------------> */}
 
 {/* Card ---------------------------------------> */}
-<Card sx={{ maxWidth: 750, maxHeight: 800,
+<Card sx={{ width:"100%", maxHeight: 800,
         boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.9)',
         borderRadius: 3,
-        margin:2    
-    }} 
+        marginTop:4    
+      }} 
       
     >
         <CardMedia
           component="img"
-          height="400"
+          height="100%"
           image={pokimg}
           />
         <CardContent>
@@ -105,16 +108,16 @@ const Feed = () => {
       {/* Card ---------------------------------------> */}
 
     {/* Card ---------------------------------------> */}
-    <Card sx={{ maxWidth: 750, maxHeight: 800,
+    <Card sx={{ width:"100%", maxHeight: 800,
         boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.9)',
         borderRadius: 3,
-        margin:2    
+        marginTop:4    
     }} 
       
     >
         <CardMedia
           component="img"
-          height="400"
+          height="100%"
           image={socialWeb}
           />
         <CardContent>
@@ -133,16 +136,15 @@ const Feed = () => {
       {/* Card ---------------------------------------> */}
 
     {/* Card ---------------------------------------> */}
-    <Card sx={{ maxWidth: 750, maxHeight: 800,
+    <Card sx={{ width:"100%", maxHeight: 800,
         boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.9)',
         borderRadius: 3,
-        margin:2    
+        marginTop:4   
     }} 
-      
     >
         <CardMedia
           component="img"
-          height="400"
+          height="100%"
           image={weather}
           />
         <CardContent>
@@ -159,6 +161,61 @@ const Feed = () => {
         </CardActions>
       </Card>
       {/* Card ---------------------------------------> */}
+
+      {/* Card ---------------------------------------> */}
+      <Card sx={{ width:"100%", maxHeight: 800,
+        boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.9)',
+        borderRadius: 3,
+        marginTop:4   
+        }} 
+        >
+        <CardMedia
+          component="img"
+          height="100%"
+          image={instacopy}
+          />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div" fontWeight="bold">
+            Instagram copy
+          </Typography>
+          <Typography variant="h5" color="#5F50FF" fontWeight="bold">
+            Javascript + React + Material UI
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
+          <Button color="success" variant="contained" onClick={()=>{window.open('https://timely-cajeta-f97d89.netlify.app/'); }}>Watch</Button>
+        </CardActions>
+      </Card>
+      {/* Card ---------------------------------------> */}
+
+      {/* Card ---------------------------------------> */}
+      <Card sx={{ width:"100%", maxHeight: 800,
+        boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.9)',
+        borderRadius: 3,
+        marginTop:4   
+        }} 
+        >
+        <CardMedia
+          component="img"
+          height="100%"
+          image={vinos}
+          />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div" fontWeight="bold">
+            Vinos
+          </Typography>
+          <Typography variant="h5" color="#5F50FF" fontWeight="bold">
+            Javascript + React + Material UI
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
+          <Button color="success" variant="contained" onClick={()=>{window.open('https://wondrous-licorice-a82eb6.netlify.app/'); }}>Watch</Button>
+        </CardActions>
+      </Card>
+      {/* Card ---------------------------------------> */}
+
 
     </Box>
   )

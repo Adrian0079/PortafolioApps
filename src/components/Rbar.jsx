@@ -17,6 +17,7 @@ import TS from '../images/Typescript.png'
 const Rbar = () => {
   return (
     <Box
+    border={0}
     bgcolor={'#4FC9BC'} //Color de fondo
     flex={2} //Usamos flexbox para dividir la pantalla en las 3 columnas
     p={2} //Padding (distancia entre el contenido y el borde del componente)

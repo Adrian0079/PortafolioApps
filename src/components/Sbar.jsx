@@ -35,6 +35,7 @@ const Sbar = () => {
 
     
     <Box 
+    border={0}
     bgcolor={"#CECEF9"}
     flex={2} //Usamos flexbox para dividir la pantalla en las 3 columnas
     p={2} //Padding (distancia entre el contenido y el borde del componente)
