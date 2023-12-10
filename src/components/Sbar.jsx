@@ -36,7 +36,7 @@ const Sbar = () => {
     
     <Box 
     border={0}
-    bgcolor={"#CECEF9"}
+    bgcolor={"#6d9bdf"}
     flex={2} //Usamos flexbox para dividir la pantalla en las 3 columnas
     p={2} //Padding (distancia entre el contenido y el borde del componente)
     sx={{
@@ -84,7 +84,9 @@ const Sbar = () => {
           </List>
           </ThemeProvider>
 
-          <Typography fontWeight="bold">Experience:</Typography>
+          <Typography fontWeight="bold"
+          fontSize={25}
+          >Experience:</Typography>
 
           <ThemeProvider theme={theme}>
           <Box 
@@ -111,11 +113,13 @@ const Sbar = () => {
             <Typography variant='h4' fontSize="1.5vw"
             fontWeight="bold" textAlign="center" 
             justifyContent="center" mt={4}
-            
+            color="white"
             >
               Secretariado Ejecutivo del Sistema Estatal de Seguridad Pública
             </Typography>
-            <Typography mt={2}  variant='h6' fontSize="1.5vw" fontWeight="bold" textAlign="center">
+            <Typography mt={2}  variant='h6' fontSize="1.5vw" fontWeight="bold" textAlign="center"
+            color="lightcyan"
+            >
               March 2022 - June 2023 - Morelia, Michoacán.
             </Typography>
           </Box>

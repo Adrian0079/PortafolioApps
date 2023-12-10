@@ -17,7 +17,8 @@ const Nvar = () => {
 
     const MyToolbar = styled(Toolbar)({
         display:"flex", //Colocamos flex para meter elementos en row
-        justifyContent:"space-between" //Ajustamos horizontalmente
+        justifyContent:"space-between", //Ajustamos horizontalmente
+        backgroundColor:"black"
     })
 
 
@@ -33,7 +34,7 @@ const Nvar = () => {
             display: {xs:"none", sm:"block"}, 
             letterSpacing: '1.4px', 
             textTransform:'uppercase', 
-            color:'black'}}>
+            color:'white'}}>
                 Ing. Jorge Adrian Guillen Barraza
             </Typography>
             <Avatar 
