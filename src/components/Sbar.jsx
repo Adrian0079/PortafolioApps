@@ -45,7 +45,8 @@ const Sbar = () => {
     }}
     >
       <Box 
-      position={'fixed'}
+      // position={'fixed'}
+      border={0}
       >
         <ThemeProvider theme={theme}>
         <List>
@@ -92,7 +93,7 @@ const Sbar = () => {
           <Box 
           border={1} 
           width={{xs:"150px",  sm:"200px", md:"250px", lg:"290px", xl:"290px"}}
-          height={380} 
+          height={{xs:"200px",  sm:"225px", md:"250px", lg:"290px", xl:"380px"}} 
           sx={{ 
             overflow: 'hidden', // Esto recorta la imagen para que coincida con el borde
             boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.9)',

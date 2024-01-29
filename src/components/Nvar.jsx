@@ -2,6 +2,7 @@ import { FileDownload, GitHub, LinkedIn } from '@mui/icons-material'
 import { AppBar, Avatar, Box, Button, IconButton, Toolbar, Typography } from '@mui/material'
 import React from 'react'
 import styled from '@emotion/styled';
+import yo from '../images/yo.jpg'
 
 
 const Nvar = () => {
@@ -38,8 +39,8 @@ const Nvar = () => {
                 Ing. Jorge Adrian Guillen Barraza
             </Typography>
             <Avatar 
-            alt="Remy Sharp" 
-            src="" 
+            alt="Yo" 
+            src={yo} 
             sx={{
             display: {xs:"block", sm:"none"}}}/>
 
