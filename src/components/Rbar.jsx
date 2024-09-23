@@ -13,6 +13,7 @@ import office from '../images/office.svg'
 import sql_image from '../images/Sql.svg'
 import TS from '../images/Typescript.png'
 import sesesp from '../images/Sesesp2.png'
+import solid from '../images/solid.png'
 
 
 
@@ -72,6 +73,9 @@ const Rbar = () => {
         </Grid>
         <Grid item xs={12} pers1={6}>
           <img src={TS} width="100%"/>
+        </Grid>
+        <Grid item xs={12} pers1={6.5}>
+          <img src={solid} width="125%"/>
         </Grid>
 
         <Grid sx={{
