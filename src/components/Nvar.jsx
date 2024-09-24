@@ -56,7 +56,7 @@ const Nvar = () => {
 
                 <IconButton>    
                     
-                    <RedButton variant="outlined" startIcon={<FileDownload /> } href='https://drive.google.com/file/d/1G-DSw5NxgumpJ9rgBGIBBYbwQUUxN-JH/view' target="_blank">
+                    <RedButton variant="outlined" startIcon={<FileDownload /> } href='https://drive.google.com/file/d/1m8qpoM0KRhVyCNATNgfXuRI5m7LPxC-y/view?usp=sharing' target="_blank">
                         Download CV
                     </RedButton>
                    
