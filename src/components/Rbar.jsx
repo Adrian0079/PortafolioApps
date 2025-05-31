@@ -1,4 +1,4 @@
-import { Box, Grid, ThemeProvider, Typography, createTheme } from '@mui/material'
+import { Box, Grid, ThemeProvider, Typography, createTheme, Link } from '@mui/material'
 import React from 'react'
 import FluidSIM from '../images/FluidSIM.png'
 import Html_image from '../images/html5.svg'
@@ -76,6 +76,51 @@ const Rbar = () => {
         </Grid>
         <Grid item xs={12} pers1={6.5}>
           <img src={solid} width="125%"/>
+           <Typography
+        ///variant="h4"
+        sx={{
+           color: '#000000', // negro absoluto
+    fontWeight: 'bold',
+    textAlign: 'center',
+    textTransform: 'uppercase',
+    textShadow: `
+      0 0 5px #ffffff,
+      0 0 10px #00e676,
+      0 0 15px #00e676,
+      0 0 20px #00e676
+    `,
+    mb: 2,
+        }}
+      >
+        CSWA Certificate
+      </Typography>
+
+      <Typography textAlign="center">
+        <Link
+          href="https://drive.google.com/file/d/1ojpbuwN4rxm9cjpvsutmhEzbpKZ8gi8F/view?usp=drivesdk"
+          target="_blank"
+          rel="noopener"
+          sx={{
+            color: '#ff1744',              // rojo neón
+            fontSize: '0.7rem',
+            fontWeight: 'bold',
+            textDecoration: 'none',
+            padding: '0.5rem 1rem',
+            borderRadius: '8px',
+            backgroundColor: '#fce4ec',
+            boxShadow: '0 0 10px #ff1744',
+            transition: 'all 0.3s ease-in-out',
+            '&:hover': {
+              backgroundColor: '#f8bbd0',
+              color: '#d50000',
+              transform: 'scale(1.05)',
+              boxShadow: '0 0 15px #ff1744',
+            }
+          }}
+        >
+        Click here to see!
+        </Link>
+      </Typography>
         </Grid>
 
         <Grid sx={{
